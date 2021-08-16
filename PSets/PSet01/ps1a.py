@@ -5,7 +5,7 @@ total_cost = int(input("Enter the cost of your dream home:"))
 current_saving = 0
 #month counter!
 counter=0
-portion_down_payment = .25*total_cost #saving for down payment
+portion_down_payment = .25*total_cost #down payment
 month_salary = annual_salary/12
 
 while current_saving<portion_down_payment:
