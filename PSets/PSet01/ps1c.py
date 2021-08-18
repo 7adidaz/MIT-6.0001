@@ -1,5 +1,6 @@
 
-
+#theoretically the code is correct but im having a proplem with it :(
+#i would be appreciated if help me :D
 
 annual_salary = int(input("Enter your starting annual salary:")) 
 total_cost = 1000000
