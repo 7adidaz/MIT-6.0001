@@ -1,7 +1,7 @@
 # Problem Set 2, hangman.py
-# Name:
-# Collaborators:
-# Time spent:
+# Name: Abdallah elhdad
+# Collaborators: none
+# Time spent: one day and a half (not full time dedicated) mostly like 8 hours at the most 
 
 # Hangman Game
 # -----------------------------------
