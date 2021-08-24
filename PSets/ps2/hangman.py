@@ -161,7 +161,7 @@ def hangman(secret_word):
                     guesses -= 1
 
             else:
-                letters_guessed.append(userinput)
+                letters_guessed.append(userinputlowerd)
                 if userinputlowerd in secret_word:
                     print("Good guess:", get_guessed_word(secret_word, letters_guessed))
                 else:
@@ -323,7 +323,7 @@ def hangman_with_hints(secret_word):
                         guesses -= 1
 
                 else:
-                    letters_guessed.append(userinput)
+                    letters_guessed.append(userinputlowerd)
                     if userinputlowerd in secret_word:
                         print("Good guess:", get_guessed_word(secret_word, letters_guessed))
                     else:
