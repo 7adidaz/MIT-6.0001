@@ -310,6 +310,7 @@ def play_hand(hand, word_list): # -----------D(o)N(e)----------
             display_hand(handcopy)
             userinput = input("Enter word, or !! to indicate that you are finished:")
             if userinput == "!!":
+		score += totalscore
                 print("Total score:", totalscore, "points")
                 break
             else:
@@ -329,7 +330,7 @@ def play_hand(hand, word_list): # -----------D(o)N(e)----------
             score += totalscore
             break
         handcopy = update_hand(handcopy, userinput)
-        score += totalscore
+        
     print("__________________________________")
                 
                 
